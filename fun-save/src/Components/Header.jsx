@@ -9,7 +9,7 @@ import { FaUserAlt } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className='w-full h-[90px] bg-[#ffffff] flex justify-center items-center'>
+    <div className='w-full h-[90px] bg-[#ffffff] flex justify-center items-center z-10 fixed'>
       <div className='flex justify-between w-[80%]'>
       <div>
       <img className='w-[151px] h-[53px]' src='/logo.png' alt='logo'/>
