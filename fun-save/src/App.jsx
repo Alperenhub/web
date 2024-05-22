@@ -6,7 +6,7 @@ import RouterConfig from './Components/RouterConfig'
 const App = () => {
   return (
     <div>
-      <Header/>
+      
       <RouterConfig/>
     
     </div>

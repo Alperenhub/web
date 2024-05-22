@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa6";
 
 
-const Footer = () => {
+const Footer = ({text}) => {
   return (
     <div className="relative flex items-center mx-24 h-[30vh] ">
        
@@ -19,7 +19,8 @@ const Footer = () => {
         <span className='mx-5'>Contact</span>
     </p>
     <div className='flex flex-row mt-8 gap-10'>
-        <p className='font-poppins text-lg'>Copyright 2022. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
+        <p className='font-poppins text-lg'>{text}
+        </p>
     </div>
     </div>
     </div>

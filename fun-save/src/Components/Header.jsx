@@ -9,13 +9,13 @@ import { FaUserAlt } from "react-icons/fa";
 
 const Header = () => {
   return (
-    <div className='w-full h-[90px] bg-[#ffffff] flex justify-center items-center z-10 fixed'>
+    <div className='w-full h-[90px] bg-[#ffffff] flex justify-center items-center z-10 fixed shadow-lg'>
       <div className='flex justify-between w-[80%]'>
       <div>
       <img className='w-[151px] h-[53px]' src='/logo.png' alt='logo'/>
       </div>
 
-      <div className='flex items-center justify-center'>
+      <div className='flex items-center bg-white rounded-b-xl justify-center '>
       <div className='bg-[#00A79D] w-[190px] h-[40px] flex items-center p-5 space-x-3 rounded-lg shadow-md'>
           <AiFillHome className="text-[#ffffff] size-6 border-b-2"/>
           <MdCreditCard className="text-[#ffffff] size-6 "/>
